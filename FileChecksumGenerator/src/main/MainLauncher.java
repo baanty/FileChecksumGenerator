@@ -3,6 +3,9 @@
  */
 package main;
 
+import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
+
 import util.FileUtil;
 
 /**
@@ -15,7 +18,7 @@ public class MainLauncher {
      * @param args
      */
     private static final FileUtil fileUtil = new FileUtil();
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoSuchAlgorithmException, IOException {
         
         fileUtil.openScreen();
     }
