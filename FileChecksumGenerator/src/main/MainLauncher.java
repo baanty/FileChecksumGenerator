@@ -9,7 +9,7 @@ import util.FileUtil;
  * @author we43mm
  *
  */
-public class MainRunner {
+public class MainLauncher {
 
     /**
      * @param args
